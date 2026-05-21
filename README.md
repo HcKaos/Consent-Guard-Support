@@ -5,9 +5,14 @@ Public support and missed-banner reports for Consent Guard.
 This repository is for reporting sites where Consent Guard did not handle a cookie consent prompt correctly.
 
 ## Report A Missed Banner
-Click [.github/ISSUE_TEMPLATE ](https://github.com/HcKaos/Consent-Guard-Support/blob/main/.github/ISSUE_TEMPLATE/missed-banner.yml)
 
-Open a new issue and include:
+Open the issues page:
+
+https://github.com/HcKaos/Consent-Guard-Support/issues
+
+Then click **New issue** and choose the missed cookie banner form. Do not open or edit the `.github/ISSUE_TEMPLATE` files directly; those files only define the form.
+
+Include:
 
 - The website URL.
 - What happened.
