@@ -1,0 +1,49 @@
+name: Missed cookie banner
+description: Report a website where Consent Guard did not handle the cookie banner.
+title: "Missed cookie banner: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a missed banner. Remove any personal details before submitting.
+
+  - type: input
+    id: site
+    attributes:
+      label: Website URL
+      description: Use the public page URL. Remove query strings, tokens, account paths, and private data.
+      placeholder: https://example.com/
+    validations:
+      required: true
+
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: What happened?
+      options:
+        - Banner stayed visible
+        - Wrong button was clicked
+        - Settings flow did not save
+        - Banner came back after refresh
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      placeholder: Firefox 126
+
+  - type: input
+    id: version
+    attributes:
+      label: Consent Guard version
+      placeholder: 1.0.2
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Add steps to reproduce, country/language if relevant, or visible button text.
+      placeholder: The banner appears at the bottom of the page and uses a "Manage choices" flow.
