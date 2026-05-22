@@ -39,7 +39,7 @@ body:
     id: version
     attributes:
       label: Consent Guard version
-      placeholder: 1.0.5
+      placeholder: 1.0.6
 
   - type: textarea
     id: notes
